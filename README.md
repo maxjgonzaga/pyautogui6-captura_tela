@@ -3,6 +3,12 @@
 
 Crie um codigo utilizando pyautogui para capturar tela (screenshot) do bloco de notas
 
+# Bibliotecas 
+import subprocess
+import pyautogui
+import time
+* py -m pip install pyautogui
+
 # Obs: ERRO COMPATIBILIDADE PYTHON, PILLOW E PYSCREEZE
 Caso ao executar o codigo retorne erro de compatibildade: 
 "PyAutoGUI was unable to import pyscreeze. (This is likely because you're running a version of Python that Pillow (which pyscreeze depends on) doesn't support currently.) Please install this module to enable the function you tried to call."
